@@ -20,9 +20,9 @@ function url_get_contents ($inputURL) {
 
 function goProxy($dataURL) 
 {
-	$baseURL = 'http://CARTODB-USER-NAME.cartodb.com/api/v2/sql?';
+	$baseURL = 'http://smitty1788.cartodb.com/api/v2/sql?';
 	//  					^ CHANGE THE 'CARTODB-USER-NAME' to your cartoDB url!
-	$api = '&api_key=';
+	$api = '&api_key= c1231204bd21acf8d6630707679aa0565412ac63';
 	//				 ^ENTER YOUR API KEY HERE!
 	$url = $baseURL.'q='.urlencode($dataURL).$api;
 	$result = url_get_contents ($url);
