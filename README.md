@@ -1,5 +1,9 @@
 #neighborhoods
 
+Site in progress. Currently using to edit/collaborate code
+
+Project inspired by extPNW neighborhood map by [Nick Martinelli](https://twitter.com/nichom).
+
 Crowd sourcing neighborhood boundaries, stories, and descriptions. Making pretty maps.
 
 This project is designed to collect boundaries and descriptions of neighborhoods and the like, and immediatley make them available for cartographic presentation and exploration.
