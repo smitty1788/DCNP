@@ -1,5 +1,5 @@
 <?php
-include '../../../../apis/cartodbProxy.php';
+include '/public_html/dcnp/php/cartodbproxy.php';
 //      ^CHANGE THIS TO THE PATH TO YOUR cartodbProxy.php
 $q = "update " .$_POST['table'] . " set loved = loved " .$_POST['op'] . " where cartodb_id = " . $_POST['id'];
 $return = goProxy($q);
