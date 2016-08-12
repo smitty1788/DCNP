@@ -8,7 +8,7 @@ Crowd sourcing neighborhood boundaries, stories, and descriptions. Making pretty
 
 This project is designed to collect boundaries and descriptions of neighborhoods and the like, and immediatley make them available for cartographic presentation and exploration.
 
-[Live Site](http://pnwmaps.com/neighborhoods)
+[extPNW Live Site](http://pnwmaps.com/neighborhoods)
 
 ###Steps to Configure 
 
@@ -23,8 +23,6 @@ This project is designed to collect boundaries and descriptions of neighborhoods
 
 5. Change [googleanalytics.js](https://github.com/enam/neighborhoods/blob/master/js/googleanalytics.js) to use your analytics code if you want, or remove the script that includes it from line 215 of [index.html](https://github.com/enam/neighborhoods/blob/master/index.html). 
 
-6. Grab a beer. Don't know if you have a brewery nearby? Check [here](http://nickmartinelli.com) :)  
-
 FYI - This project cannot run on gh-pages as it requires php to run the proxy to CartoDB.   
 
 ###Thanks!
@@ -36,6 +34,4 @@ FYI - This project cannot run on gh-pages as it requires php to run the proxy to
 5. [Slim Scroll](http://rocha.la/jQuery-slimScroll/)
 6. Whole project was inspired by [Bostonography](http://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/).
 
-###author
-* [Nick Martinelli](https://twitter.com/nichom)
-Please contact me if you do make use, or improve the code, because there is a lot that could use improving, and I would love any tips! I'd also really enjoy seeing what people do.
+
